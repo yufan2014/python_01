@@ -80,8 +80,8 @@ def download_imgs(info):
             if None != imgs:
                 img_url = str(imgs[0].attrs['src'])
                 filename = img_url.split('/')[-1]
-                print("开始下载:" + img_url + ", 保存为："+filename)
-                save_file(t, filename, img_url)
+                # print("开始下载:" + img_url + ", 保存为："+filename)
+                # save_file(t, filename, img_url)
 
     # 获取相册下的图片
     for photo_web_url in img_page_url:
