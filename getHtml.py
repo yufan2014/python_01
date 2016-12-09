@@ -77,7 +77,7 @@ def getPins():
     pin_id = 948413941
     limit = 20
     # response = requests.get('http://huaban.com/favorite/quotes/?fetch&iwg2kra4&max='+str(pin_id)+'&limit='+str(limit)+'&wfl=1')
-    response = requests.get('http://huaban.com/favorite/quotes/')
+    response = requests.get('http://huaban.com/favorite/beauty/')
     content =  response.content
     content = content.decode('utf-8')
     # appPins = re.findall(r'app\.page\["pins"\].*',content)
@@ -108,16 +108,9 @@ def getPins():
 # http://huaban.com/favorite/quotes/?iwg2kra4&max=948413941&limit=20&wfl=1
 # http://huaban.com/favorite/quotes/?iwg2krac&max=946290746&limit=20&wfl=1
 
-
-# http://huaban.com/favorite/quotes/?iwg2y5s6&max=947737573&limit=20&wfl=1
-# http://huaban.com/favorite/quotes/?iwg2y5s9&max=946290746&limit=20&wfl=1
-# http://huaban.com/favorite/quotes/?iwg2y5sf&max=944748210&limit=20&wfl=1
-# http://huaban.com/favorite/quotes/?iwg2y5sj&max=943386695&limit=20&wfl=1
+# http://huaban.com/favorite/quotes/
 
 
-
-# z13.cnzz.com/stat.htm?id=1256903590&r=&lg=zh-cn&ntime=1481181619&cnzz_eid=17048614-1473400184-null&showp=1920x1080&p=http://huaban.com/favorite/quotes/?max=943386695&limit=20&wfl=1&cv=is-logon|logged-out|1481184402098&t=美图美文_花瓣，陪你做生活的设计师（发现、采集你喜欢的美文美图）_花瓣网&h=1&rnd=271079851
-# http://huaban.com/favorite/quotes/?iwg2y5sj&max=943386695&limit=20&wfl=1
 
 
 
